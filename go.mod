@@ -1,3 +1,3 @@
-module go_html
+module go_task
 
 go 1.19

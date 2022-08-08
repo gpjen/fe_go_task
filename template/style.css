@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding:  0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(213, 220, 225);
+}
+
+header {
+    position: sticky;
+    color: white;
+    padding: 0 100px;
+    height: 50px;
+    background-color: rgb(93, 93, 93);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLogo {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(138, 138, 138);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: ease 0.3s;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+nav li {
+    list-style: none;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(93, 93, 93, 0.352);
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+th, td {
+    padding: 3px 10px;
+}
+
+.row-data {
+    transition: ease 0.3s;
+}
+
+.row-data:hover {
+    background-color: rgba(93, 93, 93, 0.208);
+    cursor: default;
+}
+
+.text-center {
+    text-align: center;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
