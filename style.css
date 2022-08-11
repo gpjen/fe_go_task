@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+}
+
+td {
+    cursor: default;
+}
+
+.zoom i {
+    opacity: 0.5;
+    transition: ease 0.3s;
+}
+
+.zoom:hover > i {
+    cursor: pointer;
+    opacity: 1;
+    scale: 110%;
+
+}
